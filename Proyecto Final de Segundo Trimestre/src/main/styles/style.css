@@ -1,0 +1,7 @@
+Button { -fx-background-color: #00a2e8;
+         -fx-border-width: 2;
+         -fx-text-fill: #FFFFFF;
+         -fx-font-style: bold;
+         -fx-font-family: "FixedSys";
+         -fx-border-radius: 10 10 10 10;
+}

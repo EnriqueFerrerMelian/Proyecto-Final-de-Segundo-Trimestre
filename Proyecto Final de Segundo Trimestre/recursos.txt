@@ -1,0 +1,3 @@
+Dialog Box Confirmation: https://www.youtube.com/watch?v=lBvBX5vldfI
+Jasper report basics:https://www.youtube.com/watch?v=yRLvJgz9Dxk
+javafx tester http://www.java2s.com/

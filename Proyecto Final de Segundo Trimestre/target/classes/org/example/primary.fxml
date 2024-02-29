@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="720.0" maxWidth="904.0" prefHeight="720.0" prefWidth="904.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../upscaler-prueba-2x.png" />
+         </image>
+      </ImageView>
+      <GridPane alignment="CENTER" gridLinesVisible="true" prefHeight="500.0" prefWidth="500.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="NEVER" maxWidth="260.0" minWidth="10.0" prefWidth="260.0" />
+          <ColumnConstraints hgrow="NEVER" maxWidth="167.0" minWidth="6.0" prefWidth="167.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="124.0" minWidth="0.0" prefWidth="124.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="124.0" minWidth="10.0" prefWidth="124.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="108.0" minWidth="0.0" prefWidth="108.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="121.0" minWidth="0.0" prefWidth="121.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="217.0" minHeight="10.0" prefHeight="205.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="246.0" minHeight="10.0" prefHeight="142.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="240.0" minHeight="10.0" prefHeight="108.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="196.0" minHeight="10.0" prefHeight="126.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="147.0" minHeight="0.0" prefHeight="131.0" vgrow="NEVER" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="mesa1" mnemonicParsing="false" onAction="#printButton" prefHeight="91.0" prefWidth="71.0" text="Button" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa2_upscaled.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+               <GridPane.margin>
+                  <Insets left="18.0" top="58.0" />
+               </GridPane.margin>
+            </Button>
+            <Label text="1" GridPane.columnIndex="5">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label text="2" GridPane.columnIndex="3" GridPane.halignment="RIGHT">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="38.0" />
+               </GridPane.margin>
+            </Label>
+            <Button fx:id="mesa3" mnemonicParsing="false" onAction="#printButton" prefHeight="84.0" prefWidth="124.0" text="mesa3" GridPane.columnIndex="2" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="25.0" top="20.0" />
+               </GridPane.margin>
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa3-bicubic.png" />
+                           </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <Button fx:id="mesa2" mnemonicParsing="false" onAction="#printButton" prefHeight="87.0" prefWidth="63.0" text="mesa2" GridPane.columnIndex="4" GridPane.valignment="TOP">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa2_upscaled.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+               <GridPane.margin>
+                  <Insets top="58.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="mesa4" mnemonicParsing="false" onAction="#printButton" prefHeight="118.0" prefWidth="124.0" text="mesa4" GridPane.columnIndex="3" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa4-bicubic.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <ImageView fx:id="mesa4Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="mesa5" mnemonicParsing="false" onAction="#printButton" prefHeight="100.0" prefWidth="106.0" text="mesa5" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa5-bicubic.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <Button fx:id="mesa6" mnemonicParsing="false" onAction="#printButton" prefHeight="92.0" prefWidth="141.0" text="mesa6" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa6-bicubic.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <Button fx:id="mesa7" mnemonicParsing="false" onAction="#printButton" prefHeight="100.0" prefWidth="172.0" text="mesa7" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa7-bicubic.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <Button fx:id="mesa9" mnemonicParsing="false" onAction="#printButton" prefHeight="110.0" prefWidth="98.0" text="mesa9" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa8-bicubic.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <Button fx:id="mesa10" mnemonicParsing="false" onAction="#printButton" prefHeight="86.0" prefWidth="105.0" text="mesa10" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="TOP">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa10-bicubic.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Button>
+            <Button fx:id="mesa8" mnemonicParsing="false" onAction="#printButton" prefHeight="82.0" prefWidth="127.0" text="mesa8" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/Korven/Documents/DAM/finale_testeo/src/main/resources/mesas/mesaspequeñas/upscale/mesa9-bicubic.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+               <GridPane.margin>
+                  <Insets bottom="20.0" />
+               </GridPane.margin>
+            </Button>
+            <Label text="3" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label text="4" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label text="5" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label text="6" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="7" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label text="8" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label text="9" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label text="10" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="mesa1Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <Image url="@../../mesas/ocupado2.png" />
+               <GridPane.margin>
+                  <Insets top="20.0" />
+                   </GridPane.margin>
+            </ImageView>
+            <ImageView fx:id="mesa2Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets top="20.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fx:id="mesa3Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets bottom="40.0" right="10.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fx:id="mesa5Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mesa6Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mesa7Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets right="20.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fx:id="mesa8Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets right="10.0" top="10.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fx:id="mesa9Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fx:id="mesa10Img" fitHeight="38.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@../../mesas/ocupado2.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </ImageView>
+            <Button fx:id="historial" mnemonicParsing="false" onAction="#imprimirHistorial" prefHeight="58.0" prefWidth="131.0" text="Imprimir Historial" GridPane.halignment="CENTER" />
+         </children>
+      </GridPane>
+   </children>
+</StackPane>
