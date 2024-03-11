@@ -1,42 +1,35 @@
-# 🚀 Mi Proyecto Increíble
+# Proyecto final de asignatura Desarrollo de interfaces DAM2 (2023-2024)
 
 ¡Bienvenido a Mi Proyecto Increíble! Este es un proyecto de ejemplo creado con fines demostrativos.
 
 ## 📝 Descripción
 
-Mi Proyecto Increíble es una aplicación web que permite a los usuarios hacer cosas increíbles de una manera simple y divertida.
+Desarrollo de una aplicación de comandas para un bar ficticio.
 
 ## 🌟 Características
 
-- Funcionalidad A: Permite a los usuarios realizar la acción A de manera rápida y eficiente.
-- Funcionalidad B: Ofrece a los usuarios la capacidad de realizar la acción B con facilidad.
-- Funcionalidad C: Introduce una característica innovadora que permite a los usuarios hacer algo asombroso.
+• Funcionalidad A: Visualizar las mesas del bar, cada una etiquetada de forma individual para poder diferenciarlas.
+• Funcionalidad B: Diferencia una mesa vacía de una mesa ocupada.
+• Funcionalidad C: Al seleccionar una mesa abre otra pantalla con todos los productos/servicios ofrecidos por el bar.
+• Funcionalidad D: En dicha pantalla, se acumula lo solicitado por la mesa en cuestión al hacer click sobre un producto.
+• Funcionalidad E: Confirmar y generar la factura de una mesa al pagar.
+• Funcionalidad F: Mantener un histórico de todas las mesas que han pasado por el bar.
+• Funcionalidad G: Resetear una mesa para que su estado vuelva al inicial.
+• Funcionalidad H: Poder generar un documento con todo el histórico de mesas.
 
 ## 🛠️ Requisitos de Instalación
 
-- Node.js >= 12.0.0
-- npm >= 6.0.0
+- IntelliJ IDEA Community Edition 2023.2.4
 
 ## 💻 Instalación
 
 1. Clona este repositorio en tu máquina local.
-2. Navega al directorio del proyecto: `cd mi-proyecto-increible`.
-3. Instala las dependencias: `npm install`.
+2. Abre el proyecto con tu copia de IntelliJ.
 
 ## ▶️ Uso
 
-1. Inicia la aplicación: `npm start`.
-2. Abre tu navegador web y navega a `http://localhost:3000`.
-3. ¡Disfruta de Mi Proyecto Increíble y haz cosas increíbles!
-
-## 🤝 Contribución
-
-¡Apreciamos tus contribuciones! Si deseas mejorar este proyecto, por favor sigue estos pasos:
-1. Crea un fork del repositorio.
-2. Crea una nueva rama para tu función: `git checkout -b nueva-funcionalidad`.
-3. Realiza tus cambios y haz commits: `git commit -m 'Añade una nueva funcionalidad'`.
-4. Sube tus cambios: `git push origin nueva-funcionalidad`.
-5. Envía una solicitud de extracción.
+1. Seleccionar la clase App.java.
+2. Seleccionar "run app".
 
 ## 🐛 Problemas
 
@@ -48,4 +41,4 @@ Este proyecto está licenciado bajo la MIT License. Para más detalles, consulta
 
 ## 📧 Contacto
 
-Si tienes alguna pregunta o comentario, no dudes en contactarnos en example@example.com.
+Si tienes alguna pregunta o comentario, no dudes en contactarnos en eferrem01@iesalbarregas.es.
